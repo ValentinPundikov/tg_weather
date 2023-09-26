@@ -8,7 +8,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import CallbackQuery, Message
 from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
 
-ADMIN_ID = ['869031863']
+ADMIN_ID = ['']
 OPENWEATHERMAP_API_KEY = "3cccaf8c64a1057516f02c3cc59a9cad"
 
 storage = MemoryStorage()
@@ -16,7 +16,7 @@ lon = ""
 lat = ""
 
 dp = Dispatcher()
-bot = Bot(token='6596800782:AAFtgkNmwuKHSCCG_ocMSw2bp1mI3t1jQgo',parse_mode='HTML')
+bot = Bot(token='',parse_mode='HTML')
 
 
 @dp.message(Command("start"))
